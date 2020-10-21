@@ -23,8 +23,8 @@ Some of the data was uncoded for sex - sex must be just male or female
 state of a patient must be died or alive - we adjust that as well   
   
 # Question 1 - Is dying independent of sex
-
-
+$H_0$ There is no difference in females dying compared to males dying  
+$H_A$ There is a difference in females dying compared to males dying  
 
 
 Table of patients:
