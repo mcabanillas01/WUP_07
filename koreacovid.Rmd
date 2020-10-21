@@ -1,7 +1,7 @@
 ---
 title: "covid 19"
-author: "Dr K"
-date: "5/2/2020"
+author: "Maria Cabanillas"
+date: "10/20/2020"
 output:
   html_document: default
   pdf_document: default
@@ -45,18 +45,35 @@ barchartGC(~result + Sex,data=kRdata, main ="Frequency Bar Chart")
   
 ### this bar chart is displaying in total frequency terms our data.  Clearly there are a lot less dead people than alive people as is reflected by the sizes of the bars in the display.  
 
-
+```{r}
+barchartGC(~result + Sex,data=kRdata, type= "percent", main ="percent Bar Chart")
+```
 
 
 
   
 ## Numerical results
 
+```{r}
+table1 <- xtabs(~result + Sex, data=kRdata)
+rowPerc(table1)
+colPerc(table1)
+```
+
 
 ## Inferential results 
 
-
-
+```{r}
+chisq.test(table1)
+chisqtestGC(table1)
+fisher.test(table1)
+```
+The odds of dying if you're a male is 44/1411    
+The odds of dying is you're a female is 25/1831  
+The odds ratio is (44/1411)/(25/1831)  
+The odds of dying is 2.3 to 1  
 
 ## Conclusions
+
+
 
