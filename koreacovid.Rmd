@@ -49,7 +49,7 @@ barchartGC(~result + Sex,data=kRdata, main ="Frequency Bar Chart")
 barchartGC(~result + Sex,data=kRdata, type= "percent", main ="percent Bar Chart")
 ```
 
-
+The percentage of males with the virus is less than females but the rate of males dying is more than females.   
 
   
 ## Numerical results
@@ -74,6 +74,6 @@ The odds ratio is (44/1411)/(25/1831)
 The odds of dying is 2.3 to 1  
 
 ## Conclusions
-
+There are more men dying than women at a ratio of 2.3 to 1 in Korea during the Covid 19 pandemic.   
 
 
