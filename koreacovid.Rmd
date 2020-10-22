@@ -75,6 +75,6 @@ The odds ratio is (44/1411)/(25/1831)
 The odds of dying is 2.3 to 1  
 
 ## Conclusions
-There are more men dying than women at a ratio of 2.3 to 1 in Korea during the Covid 19 pandemic.   
+Based on the reports there are more men dying than women at a ratio of 2.3 to 1 in Korea during the Covid 19 pandemic.   
 
 
