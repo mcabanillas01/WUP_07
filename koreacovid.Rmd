@@ -59,8 +59,8 @@ table1 <- xtabs(~result + Sex, data=kRdata)
 rowPerc(table1)
 colPerc(table1)
 ```
-Of the people that are alive 56 percent are females and 44 percent are males.
-Of the people who have died 36 percent are females and 64 percent are males. 
+Of the people that are alive 56 percent are females and 44 percent are males.  
+Of the people who have died 36 percent are females and 64 percent are males.   
 
 ## Inferential results 
 
